@@ -1,9 +1,12 @@
+import Image from "next/image";
+import logo from "@/app/_assets/logo.svg";
+
 export default function Navbar() {
   return (
     <nav>
-      <img
-        src="#"
-        alt="#"
+      <Image
+        src={logo}
+        alt="Logo"  
       />
       <ul>
         <li>Serviços</li>
