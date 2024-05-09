@@ -9,6 +9,9 @@ const config: Config = {
   theme: {
     container: {
       center: true,
+      padding: {
+        xl: "7rem",
+      },
     },
   },
   plugins: [],
