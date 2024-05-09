@@ -32,13 +32,16 @@ export default function Navbar() {
           <Link href="/sobre">Sobre mim</Link>
         </li>
         <li>
-          <Link href="/contato">
+          <Link
+            href="/contato"
+            className="flex flex-col"
+          >
             <span className={`text-right ${isActive(pathname, "contato")}`}>
               Contato
             </span>
             <span className="text-xs text-zinc-400 font-extralight flex gap-1 items-center">
               <FaWhatsapp />
-              (+55 11 99999 9999)
+              (11 99999 9999)
             </span>
           </Link>
         </li>
